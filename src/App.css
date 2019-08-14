@@ -31,7 +31,7 @@
   border-radius: 10px;
 }
 
-.bannner-text h1 {
+.bannner-text h2 {
   font-size: 66px;
   font-weight: bold;
   color: white;
@@ -112,4 +112,12 @@ background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, F
 .contact-list i {
   font-size: 50px;
   padding-right: 5rem;
+}
+
+/* Resume page css */
+
+.resume-right-col {
+  background: #27221F;
+  color: white;
+  padding: 2em;
 }

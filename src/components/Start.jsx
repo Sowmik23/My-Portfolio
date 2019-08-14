@@ -16,7 +16,7 @@ class Start extends Component {
                         />
 
                         <div className="banner-text">
-                            <h1>Full Stack Android & Web Developer</h1>
+                            <h2>Full Stack Android & Web Developer</h2>
 
                             <hr/>
                             <p>HTML/CSS | Bootstrap | JavaScript | React | NodeJS | Firebase | MongoDB | Android</p>

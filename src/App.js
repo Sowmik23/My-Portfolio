@@ -11,18 +11,18 @@ function App() {
   return (
     <div className="demo-big-content">
        <Layout>
-         <Header className = "header-color" title="My Portfolio" scroll>
+  <Header className = "header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">My Portfolio (Sowmik Sarker)</Link> } scroll>
            <Navigation>
-             <Link to="/">Resume</Link>
-             <Link to="/about">About</Link>
+             <Link to="/resume">Resume</Link>
+             {/* <Link to="/about">About</Link> */}
              <Link to="/projects">Projects</Link>
              <Link to="/contact">Contact</Link>
            </Navigation>
          </Header>
-         <Drawer title="My Portfolio">
+         <Drawer title={<Link style={{textDecoration: 'none', color: 'dark'}} to="/">My Portfolio</Link> }>
            <Navigation>
-           <Link to="/">Resume</Link>
-             <Link to="/about">About</Link>
+           <Link to="/resume">Resume</Link>
+             {/* <Link to="/about">About</Link> */}
              <Link to="/projects">Projects</Link>
              <Link to="/contact">Contact</Link>
            </Navigation>
